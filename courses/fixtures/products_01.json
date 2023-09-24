@@ -1,0 +1,50 @@
+[
+  {
+    "model": "courses.product",
+    "pk": 1,
+    "fields": {
+      "name": "Вышивание",
+      "creator": 2
+    }
+  },
+  {
+    "model": "courses.product",
+    "pk": 2,
+    "fields": {
+      "name": "Кройка и шитье",
+      "creator": 3
+    }
+  },
+  {
+    "model": "courses.product",
+    "pk": 3,
+    "fields": {
+      "name": "Танцы",
+      "creator": 4
+    }
+  },
+  {
+    "model": "courses.product",
+    "pk": 4,
+    "fields": {
+      "name": "Фехтование",
+      "creator": 2
+    }
+  },
+  {
+    "model": "courses.product",
+    "pk": 5,
+    "fields": {
+      "name": "Самбо",
+      "creator": 2
+    }
+  },
+  {
+    "model": "courses.product",
+    "pk": 6,
+    "fields": {
+      "name": "Бокс",
+      "creator": 3
+    }
+  }
+]

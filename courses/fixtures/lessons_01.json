@@ -1,0 +1,39 @@
+[
+  {
+    "model": "courses.lesson",
+    "pk": 1,
+    "fields": {
+      "title": "Кройка ткани",
+      "link": "https://www.youtube.com/watch?v=Z7AY41tE-3U&list=PLA0M1Bcd0w8zPwP7t-FgwONhZOHt9rz9E",
+      "duration": 40,
+      "products": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 2,
+    "fields": {
+      "title": "Разминка",
+      "link": "https://www.youtube.com",
+      "duration": 50,
+      "products": [
+        2,
+        6
+      ]
+    }
+  },
+  {
+    "model": "courses.lesson",
+    "pk": 3,
+    "fields": {
+      "title": "Игра на скрипке",
+      "link": "https://www.youtube.com",
+      "duration": 80,
+      "products": [
+        3
+      ]
+    }
+  }
+]

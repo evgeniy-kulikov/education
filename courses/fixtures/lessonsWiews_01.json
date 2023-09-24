@@ -1,0 +1,22 @@
+[
+  {
+    "model": "courses.progress",
+    "pk": 1,
+    "fields": {
+      "lesson": 1,
+      "user": 5,
+      "viewed_time": 4,
+      "view_status": "N"
+    }
+  },
+  {
+    "model": "courses.progress",
+    "pk": 2,
+    "fields": {
+      "lesson": 1,
+      "user": 7,
+      "viewed_time": 24,
+      "view_status": "N"
+    }
+  }
+]

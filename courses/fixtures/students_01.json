@@ -1,0 +1,56 @@
+[
+  {
+    "model": "courses.students",
+    "pk": 1,
+    "fields": {
+      "user": 6,
+      "product": 3,
+      "access": true
+    }
+  },
+  {
+    "model": "courses.students",
+    "pk": 2,
+    "fields": {
+      "user": 9,
+      "product": 6,
+      "access": true
+    }
+  },
+  {
+    "model": "courses.students",
+    "pk": 4,
+    "fields": {
+      "user": 8,
+      "product": 6,
+      "access": false
+    }
+  },
+  {
+    "model": "courses.students",
+    "pk": 6,
+    "fields": {
+      "user": 7,
+      "product": 3,
+      "access": false
+    }
+  },
+  {
+    "model": "courses.students",
+    "pk": 7,
+    "fields": {
+      "user": 7,
+      "product": 2,
+      "access": true
+    }
+  },
+  {
+    "model": "courses.students",
+    "pk": 8,
+    "fields": {
+      "user": 9,
+      "product": 5,
+      "access": true
+    }
+  }
+]
