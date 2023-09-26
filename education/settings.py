@@ -48,8 +48,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'users.apps.UsersConfig',
-    'courses.apps.CoursesConfig',
+    'catalog.apps.CatalogConfig',
+    'study.apps.StudyConfig',
+    # 'users.apps.UsersConfig',
+    # 'courses.apps.CoursesConfig',
     'django_extensions',
     'rest_framework',
 
@@ -141,8 +143,8 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# Глобально переопределяем штатную модель пользователя
-AUTH_USER_MODEL = 'users.User'
+# # Глобально переопределяем штатную модель пользователя
+# AUTH_USER_MODEL = 'users.User'
 
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
