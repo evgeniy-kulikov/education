@@ -1,0 +1,26 @@
+[
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "title": "Docker",
+      "user": 2
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "title": "Django REST framework",
+      "user": 2
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+      "title": "Django for beginner",
+      "user": 5
+    }
+  }
+]

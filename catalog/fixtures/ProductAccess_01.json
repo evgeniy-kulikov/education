@@ -1,0 +1,29 @@
+[
+  {
+    "model": "catalog.productaccess",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "product": 2,
+      "is_valid": true
+    }
+  },
+  {
+    "model": "catalog.productaccess",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "product": 2,
+      "is_valid": true
+    }
+  },
+  {
+    "model": "catalog.productaccess",
+    "pk": 3,
+    "fields": {
+      "user": 1,
+      "product": 3,
+      "is_valid": true
+    }
+  }
+]

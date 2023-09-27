@@ -1,0 +1,35 @@
+[
+  {
+    "model": "study.lessonviewinfo",
+    "pk": 1,
+    "fields": {
+      "lesson": 1,
+      "user": 1,
+      "status": "VIEWED",
+      "view_time": 50,
+      "last_view_datatime": "2023-09-27T11:26:54Z"
+    }
+  },
+  {
+    "model": "study.lessonviewinfo",
+    "pk": 2,
+    "fields": {
+      "lesson": 2,
+      "user": 1,
+      "status": "NUT_VIEWED",
+      "view_time": 60,
+      "last_view_datatime": "2023-09-27T11:26:54Z"
+    }
+  },
+  {
+    "model": "study.lessonviewinfo",
+    "pk": 3,
+    "fields": {
+      "lesson": 3,
+      "user": 1,
+      "status": "VIEWED",
+      "view_time": 40,
+      "last_view_datatime": "2023-09-27T11:26:54Z"
+    }
+  }
+]

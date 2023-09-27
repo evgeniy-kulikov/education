@@ -1,0 +1,38 @@
+[
+  {
+    "model": "study.lesson",
+    "pk": 1,
+    "fields": {
+      "title": "Install Docker",
+      "video_url": "https://www.youtube.com",
+      "video_duration": 85,
+      "products": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "study.lesson",
+    "pk": 2,
+    "fields": {
+      "title": "Install Django REST framework",
+      "video_url": "https://www.youtube.com",
+      "video_duration": 95,
+      "products": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "study.lesson",
+    "pk": 3,
+    "fields": {
+      "title": "Django start",
+      "video_url": "https://www.youtube.com",
+      "video_duration": 120,
+      "products": [
+        1
+      ]
+    }
+  }
+]
