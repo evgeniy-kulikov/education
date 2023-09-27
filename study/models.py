@@ -1,6 +1,7 @@
 from django.db import models
 from catalog.models import Product
 from django.contrib.auth.models import User
+from datetime import datetime
 # Create your models here.
 
 # Урок
@@ -26,6 +27,7 @@ class LessonViewInfo(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     status = models.CharField(choices=LessonStatusEnum.choices, default=LessonStatusEnum.NUT_VIEWED, max_length=32)
     view_time = models.IntegerField(default=0)
+    last_view_datatime = models.DateTimeField(default=datetime.now())
 
     class Meta:
         unique_together = ('lesson', 'user')  # ставим условие: 'user' смотрит 'lesson' только один раз

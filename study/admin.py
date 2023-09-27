@@ -12,4 +12,4 @@ class ProductAccessAdmin(admin.ModelAdmin):
 
 @admin.register(study_models.LessonViewInfo)
 class LessonViewInfoAdmin(admin.ModelAdmin):
-    list_display = ['lesson', 'user', 'status', 'view_time']
+    list_display = ['lesson', 'user', 'status', 'view_time', 'last_view_datatime']
