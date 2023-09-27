@@ -5,7 +5,7 @@ from study import models as study_models
 
 @admin.register(study_models.Lesson)
 class ProductAccessAdmin(admin.ModelAdmin):
-    list_display = ['title', 'video_durution' , 'video_url']
+    list_display = ['title', 'video_duration', 'video_url']
     filter_horizontal = 'products',
 
 
