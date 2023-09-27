@@ -33,4 +33,4 @@ class LessonViewInfo(models.Model):
         unique_together = ('lesson', 'user')  # ставим условие: 'user' смотрит 'lesson' только один раз
 
     def __str__(self):
-        return f'{self.lesson}: {self.view_time}'
+        return f'{self.lesson}: {self.status}'

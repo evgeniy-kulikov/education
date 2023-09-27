@@ -22,4 +22,5 @@ urlpatterns = [
     # path('api-auth/', include('rest_framework.urls'))
     # path("", include("courses.urls")),
     path("study/", include("study.urls")),
+    path("catalog/", include("catalog.urls")),
 ]
